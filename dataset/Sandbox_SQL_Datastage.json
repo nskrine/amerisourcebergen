@@ -68,10 +68,6 @@
 				"type": "String"
 			},
 			{
-				"name": "BillingAddress",
-				"type": "String"
-			},
-			{
 				"name": "ShippingStreet",
 				"type": "String"
 			},
@@ -101,10 +97,6 @@
 			},
 			{
 				"name": "ShippingGeocodeAccuracy",
-				"type": "String"
-			},
-			{
-				"name": "ShippingAddress",
 				"type": "String"
 			},
 			{
