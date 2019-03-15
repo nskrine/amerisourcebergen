@@ -6,6 +6,2396 @@
 			"type": "LinkedServiceReference"
 		},
 		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "Id",
+				"type": "String"
+			},
+			{
+				"name": "IsDeleted",
+				"type": "Boolean"
+			},
+			{
+				"name": "MasterRecordId",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Type",
+				"type": "String"
+			},
+			{
+				"name": "RecordTypeId",
+				"type": "String"
+			},
+			{
+				"name": "ParentId",
+				"type": "String"
+			},
+			{
+				"name": "BillingStreet",
+				"type": "String"
+			},
+			{
+				"name": "BillingCity",
+				"type": "String"
+			},
+			{
+				"name": "BillingState",
+				"type": "String"
+			},
+			{
+				"name": "BillingPostalCode",
+				"type": "String"
+			},
+			{
+				"name": "BillingCountry",
+				"type": "String"
+			},
+			{
+				"name": "BillingLatitude",
+				"type": "Double"
+			},
+			{
+				"name": "BillingLongitude",
+				"type": "Double"
+			},
+			{
+				"name": "BillingGeocodeAccuracy",
+				"type": "String"
+			},
+			{
+				"name": "BillingAddress",
+				"type": "String"
+			},
+			{
+				"name": "ShippingStreet",
+				"type": "String"
+			},
+			{
+				"name": "ShippingCity",
+				"type": "String"
+			},
+			{
+				"name": "ShippingState",
+				"type": "String"
+			},
+			{
+				"name": "ShippingPostalCode",
+				"type": "String"
+			},
+			{
+				"name": "ShippingCountry",
+				"type": "String"
+			},
+			{
+				"name": "ShippingLatitude",
+				"type": "Double"
+			},
+			{
+				"name": "ShippingLongitude",
+				"type": "Double"
+			},
+			{
+				"name": "ShippingGeocodeAccuracy",
+				"type": "String"
+			},
+			{
+				"name": "ShippingAddress",
+				"type": "String"
+			},
+			{
+				"name": "Phone",
+				"type": "String"
+			},
+			{
+				"name": "Fax",
+				"type": "String"
+			},
+			{
+				"name": "AccountNumber",
+				"type": "String"
+			},
+			{
+				"name": "Website",
+				"type": "String"
+			},
+			{
+				"name": "PhotoUrl",
+				"type": "String"
+			},
+			{
+				"name": "Sic",
+				"type": "String"
+			},
+			{
+				"name": "Industry",
+				"type": "String"
+			},
+			{
+				"name": "AnnualRevenue",
+				"type": "Double"
+			},
+			{
+				"name": "NumberOfEmployees",
+				"type": "Int32"
+			},
+			{
+				"name": "Ownership",
+				"type": "String"
+			},
+			{
+				"name": "TickerSymbol",
+				"type": "String"
+			},
+			{
+				"name": "Description",
+				"type": "String"
+			},
+			{
+				"name": "Rating",
+				"type": "String"
+			},
+			{
+				"name": "Site",
+				"type": "String"
+			},
+			{
+				"name": "OwnerId",
+				"type": "String"
+			},
+			{
+				"name": "CreatedDate",
+				"type": "DateTime"
+			},
+			{
+				"name": "CreatedById",
+				"type": "String"
+			},
+			{
+				"name": "LastModifiedDate",
+				"type": "DateTime"
+			},
+			{
+				"name": "LastModifiedById",
+				"type": "String"
+			},
+			{
+				"name": "SystemModstamp",
+				"type": "DateTime"
+			},
+			{
+				"name": "LastActivityDate",
+				"type": "DateTime"
+			},
+			{
+				"name": "LastViewedDate",
+				"type": "DateTime"
+			},
+			{
+				"name": "LastReferencedDate",
+				"type": "DateTime"
+			},
+			{
+				"name": "IsCustomerPortal",
+				"type": "Boolean"
+			},
+			{
+				"name": "Jigsaw",
+				"type": "String"
+			},
+			{
+				"name": "JigsawCompanyId",
+				"type": "String"
+			},
+			{
+				"name": "AccountSource",
+				"type": "String"
+			},
+			{
+				"name": "SicDesc",
+				"type": "String"
+			},
+			{
+				"name": "Prog_Flag_InSite__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Flag_NHCE_2008__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "ABDC_Distribution_Center__c",
+				"type": "String"
+			},
+			{
+				"name": "rrpu__Alert_Message__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_count_of_Sales_Records__c",
+				"type": "Double"
+			},
+			{
+				"name": "System_Vendor_LTC__c",
+				"type": "String"
+			},
+			{
+				"name": "Legal_Business_Name__c",
+				"type": "String"
+			},
+			{
+				"name": "Business_Cancel_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Business_Start_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Has_Parent__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Generics_Manager__c",
+				"type": "String"
+			},
+			{
+				"name": "Parent_SAP_Account_Number__c",
+				"type": "String"
+			},
+			{
+				"name": "NCPDP_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_FY_OTC__c",
+				"type": "Double"
+			},
+			{
+				"name": "SAP_Account_Number_Compare__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Offer_24_Hour_Emergency_Rx__c",
+				"type": "String"
+			},
+			{
+				"name": "YEGEN__c",
+				"type": "Double"
+			},
+			{
+				"name": "Site_Community_Type__c",
+				"type": "String"
+			},
+			{
+				"name": "of_2015_TS_Registrants__c",
+				"type": "Double"
+			},
+			{
+				"name": "Prog_Flag_GNP__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Site_Location_Setting__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_FY_Total_Generics__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_Month_Total_Gen__c",
+				"type": "Double"
+			},
+			{
+				"name": "Consumer_Pharmacy_Name__c",
+				"type": "String"
+			},
+			{
+				"name": "Consumer_Descriptive_Address__c",
+				"type": "String"
+			},
+			{
+				"name": "Account_Manager_AM__c",
+				"type": "String"
+			},
+			{
+				"name": "Contract_Type__c",
+				"type": "String"
+			},
+			{
+				"name": "FilterOut__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Location_Geocode__Latitude__s",
+				"type": "Double"
+			},
+			{
+				"name": "Location_Geocode__Longitude__s",
+				"type": "Double"
+			},
+			{
+				"name": "Location_Geocode__c",
+				"type": "String"
+			},
+			{
+				"name": "Consumer_Email__c",
+				"type": "String"
+			},
+			{
+				"name": "Eligible_PRxO_Generics_Sales__c",
+				"type": "Double"
+			},
+			{
+				"name": "Consumer_Phone__c",
+				"type": "String"
+			},
+			{
+				"name": "Consumer_Fax__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Vendor_Rx__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Vendor_POS__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Vendor_IVR__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Vendor_Switch__c",
+				"type": "String"
+			},
+			{
+				"name": "Business_Channel__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Vendor_In_Store_Robotics__c",
+				"type": "String"
+			},
+			{
+				"name": "Data_Quality_Description__c",
+				"type": "String"
+			},
+			{
+				"name": "Business_Hours__c",
+				"type": "String"
+			},
+			{
+				"name": "District_Director_DD__c",
+				"type": "String"
+			},
+			{
+				"name": "Data_Quality_Score__c",
+				"type": "Double"
+			},
+			{
+				"name": "Potential_Channel__c",
+				"type": "String"
+			},
+			{
+				"name": "Location_Geocode_Latitude__c",
+				"type": "String"
+			},
+			{
+				"name": "Location_Geocode_Longitude__c",
+				"type": "String"
+			},
+			{
+				"name": "SFDC_Account_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_Nat_l_Account__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Strategic_Nat_l_Parent__c",
+				"type": "String"
+			},
+			{
+				"name": "Program_Flag_NHCE_2011__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "AM_Target_Calls__c",
+				"type": "Double"
+			},
+			{
+				"name": "C2_Low_Vol_Target__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Corporate_Overview__c",
+				"type": "String"
+			},
+			{
+				"name": "Advertising_Manager__c",
+				"type": "String"
+			},
+			{
+				"name": "Account_Status__c",
+				"type": "String"
+			},
+			{
+				"name": "Language_Primary__c",
+				"type": "String"
+			},
+			{
+				"name": "Actual_Calls_AM__c",
+				"type": "Double"
+			},
+			{
+				"name": "Business_Email__c",
+				"type": "String"
+			},
+			{
+				"name": "Actual_Calls_IS__c",
+				"type": "Double"
+			},
+			{
+				"name": "Actual_Calls_SE__c",
+				"type": "Double"
+			},
+			{
+				"name": "Prog_Flag_GNPPN__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Business_Channel_rollup__c",
+				"type": "String"
+			},
+			{
+				"name": "Business_Coach_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Business_County__c",
+				"type": "String"
+			},
+			{
+				"name": "Business_Segment_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Inside_Sales_IS__c",
+				"type": "String"
+			},
+			{
+				"name": "Language_Alternates__c",
+				"type": "String"
+			},
+			{
+				"name": "Buying_Group__c",
+				"type": "String"
+			},
+			{
+				"name": "Prog_Flag_Immunizations__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Class_of_Trade_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Competitor_PVA_End_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Competitor_PVA_Start_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Current_ABC_Divisions__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_GPO__c",
+				"type": "String"
+			},
+			{
+				"name": "DEA_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Distribution_Center__c",
+				"type": "String"
+			},
+			{
+				"name": "Est_Month_End_TRV__c",
+				"type": "Double"
+			},
+			{
+				"name": "IS_Target_Calls__c",
+				"type": "Double"
+			},
+			{
+				"name": "Industry_Description__c",
+				"type": "String"
+			},
+			{
+				"name": "Inside_Sales_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Number_of_Beds__c",
+				"type": "Double"
+			},
+			{
+				"name": "PVA_End_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "PVA_Renewal_Indicator__c",
+				"type": "String"
+			},
+			{
+				"name": "PVA_Start_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Potential_ABC_Divisions__c",
+				"type": "String"
+			},
+			{
+				"name": "Potential_ABDC_Region__c",
+				"type": "String"
+			},
+			{
+				"name": "Potential_Annual_Revenue__c",
+				"type": "Double"
+			},
+			{
+				"name": "hidden_parent_open_case__c",
+				"type": "String"
+			},
+			{
+				"name": "Potential_GPO_s__c",
+				"type": "String"
+			},
+			{
+				"name": "Potential_Segment__c",
+				"type": "String"
+			},
+			{
+				"name": "Specialty_Consultant__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_BDM_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_DD_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_SE_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_Wholesaler__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_HS_4__c",
+				"type": "String"
+			},
+			{
+				"name": "Prospect_Eligible__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Region__c",
+				"type": "String"
+			},
+			{
+				"name": "Revenue_At_Risk__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "SAP_Account_Name__c",
+				"type": "String"
+			},
+			{
+				"name": "SAP_Address_City__c",
+				"type": "String"
+			},
+			{
+				"name": "SAP_Address_State__c",
+				"type": "String"
+			},
+			{
+				"name": "SAP_Address_Zip_Code__c",
+				"type": "String"
+			},
+			{
+				"name": "SAP_Address__c",
+				"type": "String"
+			},
+			{
+				"name": "SAP_ECC_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "SE_Target_Calls__c",
+				"type": "Double"
+			},
+			{
+				"name": "SalesTRAC_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Secondary_Wholesaler__c",
+				"type": "String"
+			},
+			{
+				"name": "Service_At_Risk__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "hidden_PVA_Renewal_Indicator__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_FY_PRxO_Rev__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_FY_Total_Rev__c",
+				"type": "Double"
+			},
+			{
+				"name": "Sales_Executive_SE__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_Month_TRV__c",
+				"type": "Double"
+			},
+			{
+				"name": "Number_of_Pharmacies__c",
+				"type": "Double"
+			},
+			{
+				"name": "Number_of_Stores__c",
+				"type": "Double"
+			},
+			{
+				"name": "Total_PRxO_Plan__c",
+				"type": "Double"
+			},
+			{
+				"name": "Prospect_Inactive__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Flag_NHCE_2013__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Total_Revenue_Plan__c",
+				"type": "Double"
+			},
+			{
+				"name": "Warehouse__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "GNP_Cluster__c",
+				"type": "String"
+			},
+			{
+				"name": "Targetbank_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "GNP_Link_Agr_Date_Rx__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "GNP_Link_Agr_Date_POS__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "GNP_Link_Agr_Date_IVR__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "GNP_Link_Agr_Vendor_Rx__c",
+				"type": "String"
+			},
+			{
+				"name": "GNP_Link_Agr_Vendor_POS__c",
+				"type": "String"
+			},
+			{
+				"name": "GNP_Link_Agr_Vendor_IVR__c",
+				"type": "String"
+			},
+			{
+				"name": "Merchandiser_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "ProvID_NPI__c",
+				"type": "String"
+			},
+			{
+				"name": "GNP_Cluster_Name_New__c",
+				"type": "String"
+			},
+			{
+				"name": "Program_Flag_Respiratory__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Start_Respiratory__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_Respiratory__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Last_Admin_QA_Check__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "hidden_Primary_PSS_reports_to_Logged_In__c",
+				"type": "Double"
+			},
+			{
+				"name": "hidden_Primary_SE_reports_to_Logged_In__c",
+				"type": "Double"
+			},
+			{
+				"name": "db_Criteria__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_Last_Quarter_TRV__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_Current_Quarter_TRV__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_InSite_Rx__c",
+				"type": "Double"
+			},
+			{
+				"name": "GNP_Cluster_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "GNP_Cluster_Name__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_HS_5__c",
+				"type": "String"
+			},
+			{
+				"name": "PPoints14_Eligible__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "GNP_Cluster_Fee__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_Eligibility_Note__c",
+				"type": "String"
+			},
+			{
+				"name": "PPoints14_Program_Level__c",
+				"type": "String"
+			},
+			{
+				"name": "PPoints14_Program_Level_Formula__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_TRV_Met__c",
+				"type": "String"
+			},
+			{
+				"name": "PPoints14_YTD_Points__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_Day_Zero_Points__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_Contribution_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_SE_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_DD_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_PM_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_AM_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints14_Contribution_to_Goal_Who__c",
+				"type": "String"
+			},
+			{
+				"name": "FTS_Target__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "ACAP_Target__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "GNP_Target__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "PPoints14_Advertising_Manager_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Comments__c",
+				"type": "String"
+			},
+			{
+				"name": "Distribution_Center_Rollup__c",
+				"type": "String"
+			},
+			{
+				"name": "Parent_Current_FY_TRV__c",
+				"type": "Double"
+			},
+			{
+				"name": "Parent_Current_FY_PRxO__c",
+				"type": "Double"
+			},
+			{
+				"name": "showRecordType__c",
+				"type": "String"
+			},
+			{
+				"name": "Competitor_Buying_Group__c",
+				"type": "String"
+			},
+			{
+				"name": "Actual_Calls_FSSR__c",
+				"type": "Double"
+			},
+			{
+				"name": "Target_Calls_FSSR__c",
+				"type": "Double"
+			},
+			{
+				"name": "Bypass_Account_TriggerHelper__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Geotag_Update_Req__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "MALatitude__c",
+				"type": "Double"
+			},
+			{
+				"name": "MALongitude__c",
+				"type": "Double"
+			},
+			{
+				"name": "Generics_Inside_Sales_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Num_Programs__c",
+				"type": "Double"
+			},
+			{
+				"name": "Explicit_Master_Record__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Account_Count_Function__c",
+				"type": "Double"
+			},
+			{
+				"name": "ThoughtSpot_Candidate__c",
+				"type": "Double"
+			},
+			{
+				"name": "Generics_Rebate_Amount__c",
+				"type": "Double"
+			},
+			{
+				"name": "Generics_Rebate_Signed__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Prog_Flag_Bus_Coach__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Generics_Rebate_Type__c",
+				"type": "String"
+			},
+			{
+				"name": "Terms_Conditions_Signed__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Test__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Site_Sq_Ft_Total_Store__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_MCD_temp__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_Rebate_Year__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Cubixx__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Include_For_Merge__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "FSSR_Reach__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "GNP_Cluster_Fees_on_Hold__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "GNP_Cluster_Fees_Hold_Expiration__c",
+				"type": "String"
+			},
+			{
+				"name": "Buying_Group_Strategic_Accounts_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Buying_Group_Strategic_Accounts_2__c",
+				"type": "String"
+			},
+			{
+				"name": "Generics_Director__c",
+				"type": "String"
+			},
+			{
+				"name": "Actual_Calls_PSS__c",
+				"type": "Double"
+			},
+			{
+				"name": "Group_Vice_President__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_BDD_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_PSS_lookup__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_VP_District_Sales__c",
+				"type": "String"
+			},
+			{
+				"name": "Target_Call_PSS__c",
+				"type": "Double"
+			},
+			{
+				"name": "Prog_Flag_PSC__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "VP_Business_Development__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_CSP_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_CSP_2__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_CSP_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_HS_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Select_Vendor_Flag_Rx__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Strategic_HS_2__c",
+				"type": "String"
+			},
+			{
+				"name": "At_Risk__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "NY_Metro__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Current_Month_PRxO_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_Month_TRV_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_Monthly_PRxO_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Last_FY_PRxO_Revenue__c",
+				"type": "Double"
+			},
+			{
+				"name": "Last_FY_Total_Revenue__c",
+				"type": "Double"
+			},
+			{
+				"name": "hidden_hierarchy_prxo_performance__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_CARE_Strategic_Nat_l_Account__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "CARE_Strategic_Nat_l_Account__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "PPoints14_Business_Start__c",
+				"type": "Double"
+			},
+			{
+				"name": "ABDC_Region__c",
+				"type": "String"
+			},
+			{
+				"name": "SAP_Account_Number__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_Monthly_TRV_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Month_End_PRxO_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Month_End_PRxO__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Month_End_PRxO_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Month_End_TRV_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Month_End_TRV_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_FY_PRxO_Account_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "ProvID_NPI_Taxonomy__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_FY_TRV_Account_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_Month_PRxO__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_Monthly_PRxO_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_Monthly_TRV_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_FY_TRV_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_FY_TRV_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "YETRV__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_YETRV_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_YETRV_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Year_Over_Year_TRV_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Year_Over_Year_TRV_Growth__c",
+				"type": "Double"
+			},
+			{
+				"name": "Select_Vendor_Flag_POS__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Current_FY_PRxO_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Ownership_Since__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Select_Vendor_Flag_IVR__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Current_FY_PRxO_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "YEPRxO__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_YEPRxO_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_YEPRxO_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Year_Over_Year_PRxO_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "TTY_Services__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Site_Handicap_Access__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Braille_Labeling__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Site_Drive_Thru_Window__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Local_Delivery__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Est_Year_Over_Year_PRxO_Growth__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_User_is_Primary__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Local_Delivery_Fee__c",
+				"type": "Double"
+			},
+			{
+				"name": "Business_Coach_BC__c",
+				"type": "String"
+			},
+			{
+				"name": "PPoints_VP_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "PPoints_Current_Quarter_TRV_estimated__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_Monthly_Total_Gen_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_Month_Total_Gen_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Site_Nearest_Pharmacy__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_Month_Total_Gen_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Month_End_Total_Gen__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Month_End_Total_Gen_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Month_End_Total_Gen_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_FY_Total_Gen_Account_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_FY_Total_Gen_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Current_FY_Total_Gen_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Program_Flag_PrescribeWellness__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Start_PrescribeWellness__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_PrescribeWellness__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "hidden_hierarchy_trv_report__c",
+				"type": "String"
+			},
+			{
+				"name": "Last_FY_Total_Gen__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_YEGEN_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_YEGEN_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Year_Over_Year_Total_Gen_Variance__c",
+				"type": "Double"
+			},
+			{
+				"name": "Est_Year_Over_Year_Total_Gen_Growth__c",
+				"type": "Double"
+			},
+			{
+				"name": "hidden_hierarchy_filter__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_hierarchy_report__c",
+				"type": "String"
+			},
+			{
+				"name": "Program_Flag_TPR_Hot_Price__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Start_TPR_Hot_Price__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_TPR_Hot_Price__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Primary_Sales_Account__c",
+				"type": "String"
+			},
+			{
+				"name": "Access_Warning__c",
+				"type": "String"
+			},
+			{
+				"name": "Sales_Warning__c",
+				"type": "String"
+			},
+			{
+				"name": "Test_Rich_Text__c",
+				"type": "String"
+			},
+			{
+				"name": "Signed_MPA_Data_Auth_Form__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Uses_Emdeon_s_PPE_Solution__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "RelatedSAPTempRecord__c",
+				"type": "String"
+			},
+			{
+				"name": "Tag_me__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "CSP_Target_Override_Reason_Other__c",
+				"type": "String"
+			},
+			{
+				"name": "CSP_Target_Override_Reason__c",
+				"type": "String"
+			},
+			{
+				"name": "CSP_Target_Override_Value__c",
+				"type": "String"
+			},
+			{
+				"name": "CSP_Target_Override__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "CSP_Target__c",
+				"type": "String"
+			},
+			{
+				"name": "Last_Reported_Period__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_Vendor_Gx_of_total_Rx__c",
+				"type": "Double"
+			},
+			{
+				"name": "TB_Gx_Value__c",
+				"type": "Double"
+			},
+			{
+				"name": "NCPDP_Data_DBA_Name__c",
+				"type": "String"
+			},
+			{
+				"name": "GNP_Link_Agr_Date_LTC__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "GNP_Link_Agr_Vendor_LTC__c",
+				"type": "String"
+			},
+			{
+				"name": "Product_Name_IVR__c",
+				"type": "String"
+			},
+			{
+				"name": "Product_Name_LTC__c",
+				"type": "String"
+			},
+			{
+				"name": "Product_Name_POS__c",
+				"type": "String"
+			},
+			{
+				"name": "Product_Name_Rx__c",
+				"type": "String"
+			},
+			{
+				"name": "Select_Vendor_Flag_LTC__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "System_Match_Date_IVR__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "System_Match_Date_LTC__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "System_Match_Date_POS__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "System_Match_Date_Rx__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "TB_Profile__c",
+				"type": "String"
+			},
+			{
+				"name": "TB_Rx_Value__c",
+				"type": "Double"
+			},
+			{
+				"name": "System_Match_Source_LTC__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Sold_Date_IVR__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "TB_Segment__c",
+				"type": "String"
+			},
+			{
+				"name": "TB_Size__c",
+				"type": "String"
+			},
+			{
+				"name": "TB_Target_Value__c",
+				"type": "Double"
+			},
+			{
+				"name": "TargetBank__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_CSP_Target__c",
+				"type": "String"
+			},
+			{
+				"name": "Adjusted_Actual_Calls_FSSR__c",
+				"type": "Double"
+			},
+			{
+				"name": "Last_FY_PRxO_Percent_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Last_FY_TRV_Percent_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "SimpleID__c",
+				"type": "String"
+			},
+			{
+				"name": "SimpleID2__c",
+				"type": "String"
+			},
+			{
+				"name": "Last_FY_PRxO_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Last_FY_TRV_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Active_Service_Event_Related__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Clicktools_Grouping_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Daily_Script_Count__c",
+				"type": "Double"
+			},
+			{
+				"name": "Tertiary_Wholesaler__c",
+				"type": "String"
+			},
+			{
+				"name": "ringdna106__Call_Attempts__c",
+				"type": "Double"
+			},
+			{
+				"name": "Number_Of_Tech_Profiles__c",
+				"type": "Double"
+			},
+			{
+				"name": "Parent_Hierarchy_Ids__c",
+				"type": "String"
+			},
+			{
+				"name": "tagMe__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Prior_FY_PRxO_Revenue__c",
+				"type": "Double"
+			},
+			{
+				"name": "Prior_FY_Q4_TRV__c",
+				"type": "Double"
+			},
+			{
+				"name": "Bellco_Generics_Status__c",
+				"type": "String"
+			},
+			{
+				"name": "Bellco_Generics_Inside_Sales__c",
+				"type": "String"
+			},
+			{
+				"name": "COO_Reported__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "GNP_Cluster_Fees_Start__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "GNP_Cluster_Fees_End__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "GNP_Cluster_Fees_Comments__c",
+				"type": "String"
+			},
+			{
+				"name": "invalidBillStateLen__c",
+				"type": "Double"
+			},
+			{
+				"name": "invalidMailStateLen__c",
+				"type": "Double"
+			},
+			{
+				"name": "hidden_qtrcomparison__c",
+				"type": "String"
+			},
+			{
+				"name": "PPoints_Adv_Feat_Docs_Complete__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "hidden_prxo_compliance_summary__c",
+				"type": "String"
+			},
+			{
+				"name": "Buying_Group_Strategic_Accounts_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Inside_Sales_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Inside_Sales_2__c",
+				"type": "String"
+			},
+			{
+				"name": "Inside_Sales_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Inside_Sales_4__c",
+				"type": "String"
+			},
+			{
+				"name": "Site_Store_Open_Year__c",
+				"type": "String"
+			},
+			{
+				"name": "Senior_Vice_President__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_CSP_4__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Match_Source_Rx__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Data_Source_Switch__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_HS_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Billing_Zip_Code__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Sold_Date_LTC__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "System_Sold_Date_POS__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "System_Sold_Date_Rx__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "assignAccountTeamForBDD_BDM__c",
+				"type": "Double"
+			},
+			{
+				"name": "isAssignAccountTeamForBDD_BDM__c",
+				"type": "Double"
+			},
+			{
+				"name": "Elevate_Status__c",
+				"type": "String"
+			},
+			{
+				"name": "Parent_Strategic_National_Account__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "hidden_Parent_Strategic_National_Account__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Master_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "old_Program_Manager__c",
+				"type": "String"
+			},
+			{
+				"name": "Do_Not_Call__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Group_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_340B_Program_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_Data__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_Hospital_Type__c",
+				"type": "String"
+			},
+			{
+				"name": "Last_Affiliation_Update__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Prog_Flag_FES__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Definitive_Network_Parent__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Match_Source_POS__c",
+				"type": "String"
+			},
+			{
+				"name": "System_Match_Source_IVR__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_Website__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_of_Beds__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_of_Discharges__c",
+				"type": "Double"
+			},
+			{
+				"name": "Definitive_of_Employees__c",
+				"type": "Double"
+			},
+			{
+				"name": "Premier_Onboarding_Phase__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_Opportunity_Count__c",
+				"type": "Double"
+			},
+			{
+				"name": "hidden_date_time__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "CSTTrain_Data__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "isZipAssignedTeam__c",
+				"type": "Double"
+			},
+			{
+				"name": "dateAutoParentSet__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Accreditations__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_Disease_States__c",
+				"type": "String"
+			},
+			{
+				"name": "Buying_Group_End_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Buying_Group_Start_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "OSN_Account_Status__c",
+				"type": "String"
+			},
+			{
+				"name": "Contract_Source__c",
+				"type": "String"
+			},
+			{
+				"name": "AccountId__c",
+				"type": "String"
+			},
+			{
+				"name": "Primary_GPO__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_parent_ahp_performance_ytd__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_parent_case_detail_previous_fq__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_parent_location_detail__c",
+				"type": "String"
+			},
+			{
+				"name": "DD_Comped__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "GVP_Comped__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "ISS_Comped__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "SE_Comped__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "SVP_Comped__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "VPDS_Comped__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Right_for_Merge__c",
+				"type": "String"
+			},
+			{
+				"name": "CPA_Opt_Out__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Retail_Merchandising_Manager__c",
+				"type": "String"
+			},
+			{
+				"name": "hidden_house__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "House__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Notes__c",
+				"type": "String"
+			},
+			{
+				"name": "Potential_Buying_Group_s__c",
+				"type": "String"
+			},
+			{
+				"name": "HRSA_340B_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "HRSA_Contract_Pharmacy__c",
+				"type": "String"
+			},
+			{
+				"name": "Door__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Projected_Annualized_TRV__c",
+				"type": "Double"
+			},
+			{
+				"name": "Comped_Notes__c",
+				"type": "String"
+			},
+			{
+				"name": "Shopper_Wave__c",
+				"type": "Double"
+			},
+			{
+				"name": "Customer_Development__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Customer_Development__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Plan_of_Action_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Tactics_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Parent_Current_FY_PRxO_Account_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Parent_Current_FY_PRxO_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Parent_Current_FY_TRV_Account_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Parent_Current_FY_TRV_to_Goal__c",
+				"type": "Double"
+			},
+			{
+				"name": "Plan_of_Action_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategy_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Tactics_1__c",
+				"type": "String"
+			},
+			{
+				"name": "Buying_Group_Name__c",
+				"type": "String"
+			},
+			{
+				"name": "Source_Link__c",
+				"type": "String"
+			},
+			{
+				"name": "Prog_Flag_PDS__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Generic_Manager_Comped__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Related_Zip__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategy_2__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategy_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Plan_of_Action_2__c",
+				"type": "String"
+			},
+			{
+				"name": "Plan_of_Action_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Tactics_2__c",
+				"type": "String"
+			},
+			{
+				"name": "Tactics_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Plan_of_Action_2__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Plan_of_Action_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Program_Start_Business_Coaching__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Other_Tactics_2__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Tactics_3__c",
+				"type": "String"
+			},
+			{
+				"name": "Strengths__c",
+				"type": "String"
+			},
+			{
+				"name": "Weaknesses__c",
+				"type": "String"
+			},
+			{
+				"name": "Opportunities__c",
+				"type": "String"
+			},
+			{
+				"name": "Threats__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_CSP_BDD_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_CSP_BDD__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_CSP_BDM__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_CSP_BDVP__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_CSP_DD__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_CSP_SE__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_CSP_VPDS__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_HS_DD__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_HS_GVP__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_HS_SE__c",
+				"type": "String"
+			},
+			{
+				"name": "Zip_Assigned_HS_VPDS__c",
+				"type": "String"
+			},
+			{
+				"name": "TS17_5_Star__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "TS_Represented_Store__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "ApprovedPhoneFormat__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Preferred_Support_Group__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Strengths__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Weaknesses__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Opportunities__c",
+				"type": "String"
+			},
+			{
+				"name": "Other_Threats__c",
+				"type": "String"
+			},
+			{
+				"name": "Campaign_Eligibility__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Inside_Sales_Phone__c",
+				"type": "String"
+			},
+			{
+				"name": "Contract_Purchasing_Group__c",
+				"type": "String"
+			},
+			{
+				"name": "PPoints_Ownership_Bonus__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "PPoints_Sys_Vendor_Bonus__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "PPoints_Transformation_Bonus__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "PPoints_5_Star__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Potential_Seller_Flag_Date__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Potential_Seller__c",
+				"type": "String"
+			},
+			{
+				"name": "Program_Start_Front_End_Solutions__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "excludeFromTriggerProcess__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "has_Inactive_User__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "BRx_Rebate__c",
+				"type": "Double"
+			},
+			{
+				"name": "Other_Rebate__c",
+				"type": "Double"
+			},
+			{
+				"name": "PRxO_Min__c",
+				"type": "String"
+			},
+			{
+				"name": "Volume_Min__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategic_HS_6__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_IDN_Parent_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Results_of_Strategy_4__c",
+				"type": "String"
+			},
+			{
+				"name": "Results_of_Strategy_5__c",
+				"type": "String"
+			},
+			{
+				"name": "Results_of_Strategy_6__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategy_4__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategy_5__c",
+				"type": "String"
+			},
+			{
+				"name": "Strategy_6__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_IDN_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Definitive_ID__c",
+				"type": "String"
+			},
+			{
+				"name": "Rx_System_Certified__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Custom_Account__c",
+				"type": "String"
+			},
+			{
+				"name": "ringdna106__Days_Since_Last_Attempt__c",
+				"type": "Double"
+			},
+			{
+				"name": "ringdna106__Email_Attempts__c",
+				"type": "Double"
+			},
+			{
+				"name": "ringdna106__First_Inbound_Call__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "ringdna106__First_Outbound_Call__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "ringdna106__Last_Email_Attempt__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "ringdna106__Last_Inbound_Call__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "ringdna106__Last_Outbound_Call__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "ringdna106__Response_Type__c",
+				"type": "String"
+			},
+			{
+				"name": "ringdna106__RingDNA_Context__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "ringdna106__Time_Since_Last_Call_Attempt_Days__c",
+				"type": "Double"
+			},
+			{
+				"name": "ringdna106__Time_Since_Last_Call_Attempt_Minutes__c",
+				"type": "Double"
+			},
+			{
+				"name": "ringdna106__Time_Since_Last_Email_Attempt_Days__c",
+				"type": "Double"
+			},
+			{
+				"name": "ringdna106__Time_Since_Last_Email_Attempt_Minutes__c",
+				"type": "Double"
+			},
+			{
+				"name": "ringdna106__Time_to_First_Dial_Minutes__c",
+				"type": "Double"
+			},
+			{
+				"name": "ringdna106__Time_to_First_Response__c",
+				"type": "Double"
+			},
+			{
+				"name": "Active_Dormant__c",
+				"type": "String"
+			},
+			{
+				"name": "Preferred_Support_Group_User_Service__c",
+				"type": "String"
+			},
+			{
+				"name": "Program_Start_GNPPN__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Flag_NHCE_2012__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Start_GNP__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Start_Immunizations__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Start_InSite__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Start_Pharmacy_Data_Services__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Start_Prescription_Savings_Club__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Start_Unsaleable_Returns__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_Business_Coaching__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_Front_End_Solutions__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_GNPPN__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_GNP__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_Immunizations__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Flag_Returns__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Flag_Travel_Health__c",
+				"type": "Boolean"
+			},
+			{
+				"name": "Program_Start_Travel_Health__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_Travel_Health__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_InSite__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_Pharmacy_Data_Services__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_Prescription_Savings_Club__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "Program_Term_Unsaleable_Returns__c",
+				"type": "DateTime"
+			},
+			{
+				"name": "GNP_Premier_Status__c",
+				"type": "String"
+			},
+			{
+				"name": "Current_FY_Max_TRV__c",
+				"type": "Double"
+			}
+		],
 		"typeProperties": {
 			"tableName": "[dbo].[Account]"
 		}
