@@ -13,8 +13,28 @@
 					"secureInput": false
 				},
 				"typeProperties": {
+					"source": {
+						"type": "SalesforceSource",
+						"readBehavior": "query"
+					},
+					"sink": {
+						"type": "SqlSink",
+						"writeBatchSize": 10000
+					},
 					"enableStaging": false
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "Accounts",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Sandbox_SQL_Datastage",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		]
 	}

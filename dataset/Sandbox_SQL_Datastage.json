@@ -5,6 +5,9 @@
 			"referenceName": "SQL Datastage",
 			"type": "LinkedServiceReference"
 		},
-		"type": "AzureSqlTable"
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"tableName": "[dbo].[Account]"
+		}
 	}
 }
